@@ -91,9 +91,9 @@ AppAsset::register($this);
 		</div>
 		<!-- container -->
 	</div>
-<!-- header-top -->
-<!-- header-bottom -->
-<div id="header-nav" class="header-nav">
+	<!-- header-top -->
+	<!-- header-bottom -->
+	<div id="header-nav" class="header-nav">
 		 <div class="top-nav">		
 			 <nav>
 			 <div class="logo">
@@ -118,11 +118,13 @@ AppAsset::register($this);
 		 });
 		 });
 		 </script>
-</div>
-<!-- header-bottom -->
-<?php echo $content; ?>
-<?php $this->registerJs($this->blocks['js_end'], yii\web\View::POS_LOAD) ?>
- <!-- 注册js -->
+	</div>
+	<!-- header-bottom -->
+
+	<?php echo $content; ?>
+	<!-- 上下分层 -->
+	<?php $this->registerJs($this->blocks['js_end'], yii\web\View::POS_LOAD) ?>
+ 	<!-- 注册js -->
 <?php $this->endBody() ?>
 </body>
 </html>

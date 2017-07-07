@@ -359,7 +359,7 @@ AppAsset::register($this);
 
 	<!-- content-services -->
 	<div id="services" class="content-skills">
-		<!--- container ---->
+		<!-- container -->
 		<div class="container">
 			<div class="content-skills-text">
 				<h2>Our <small>services</small></h2>
@@ -395,9 +395,6 @@ AppAsset::register($this);
 				</div>
 			</div>		
 		</div>	 
-	</div>
-	<!-- content-skills -->
-		</div>
 		<!-- container -->
 		<div class="content-about-bottom">
 			<div class="content-services-bottom-text">
@@ -408,7 +405,7 @@ AppAsset::register($this);
 		</div>
 		<!-- // container -->
 	</div>
-	<!-- // content-skills -->
+	<!-- // content-services -->
 
 	<!-- content-services-messages -->
 	<div id="blog" class="content-services">
@@ -750,5 +747,4 @@ AppAsset::register($this);
   	<!-- 注册js -->
 	<?php $this->endBody() ?>
 </body>
-</html>
 <?php $this->endPage() ?>
