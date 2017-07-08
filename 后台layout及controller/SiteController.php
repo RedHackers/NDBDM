@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Team: red hackers
  * Coding by cuilixiao 1511366, 20170706
@@ -188,17 +187,26 @@ class SiteController extends Controller
         return $this->render('personalwork2');
     }
     //显示界面
-
+    public function actionPersonalwork3()
+    {
+        return $this->render('personalwork3');
+    }
+    //显示界面
+     public function actionPersonalwork4()
+    {
+        return $this->render('personalwork4');
+    }
+    //显示界面
     /**
     **
     */
-     public function actionTeamwork1()
+     public function actionTeam1()
     {
         //$control=Yii::app()->runController('RhTeamInfo/index');
         $this->redirect(array('rh-team-info/index'));
     }//显示界面
 
- public function actionTeamwork2()
+ public function actionTeam2()
     {
         //$control=Yii::app()->runController('RhTeamInfo/index');
         $this->redirect(array('rh-team-server/index'));
