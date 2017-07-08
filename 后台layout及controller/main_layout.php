@@ -212,7 +212,7 @@ AppAsset::register($this);
         </li>
         <li class="dropdown menu-merge">
           <a href="#" class="dropdown-toggle fw600 p15" data-toggle="dropdown">
-          	<img src="../web/statics/assets/img/avatars/1.jpg" alt="avatar" class="mw30 br64">
+          	<img src="../web/statics/assets/img/avatars/5.jpg" alt="avatar" class="mw30 br64">
           	<span class="hidden-xs pl15"> <?php if (!\Yii::$app->user->isGuest) {
               echo Yii::$app->user->identity->username;}
               else{echo '游客';} ?> </span>
@@ -263,7 +263,7 @@ AppAsset::register($this);
           <div class="sidebar-widget author-widget">
             <div class="media">
               <a class="media-left" href="#">
-                <img src="../web/statics/assets/img/avatars/3.jpg" class="img-responsive">
+                <img src="../web/statics/assets/img/avatars/5.jpg" class="img-responsive">
               </a>
               <div class="media-body">
                 <div class="media-links">
@@ -355,7 +355,7 @@ AppAsset::register($this);
       <li class="sidebar-label pt15">信息修改</li>
           <li>
             <a class="accordion-toggle" >
-              <span class="glyphicon glyphicon-fire"></span>
+              <span class="glyphicon glyphicon-check"></span>
               <span class="sidebar-title">团队信息</span>
               <span class="caret"></span>
             </a>
@@ -375,7 +375,7 @@ AppAsset::register($this);
        <!-- -->
           <li>
             <a class="accordion-toggle" >
-              <span class="glyphicon glyphicon-fire"></span>
+              <span class="glyphicon glyphicon-check"></span>
               <span class="sidebar-title">成员信息</span>
               <span class="caret"></span>
             </a>
@@ -395,7 +395,7 @@ AppAsset::register($this);
          <!-- -->
           <li>
             <a class="accordion-toggle" >
-              <span class="glyphicon glyphicon-fire"></span>
+              <span class="glyphicon glyphicon-check"></span>
               <span class="sidebar-title">活动信息</span>
               <span class="caret"></span>
             </a>
@@ -416,7 +416,7 @@ AppAsset::register($this);
            <!-- -->
           <li>
             <a class="accordion-toggle" >
-              <span class="glyphicon glyphicon-fire"></span>
+              <span class="glyphicon glyphicon-check"></span>
               <span class="sidebar-title">留言信息</span>
               <span class="caret"></span>
             </a>
@@ -437,7 +437,7 @@ AppAsset::register($this);
             <!-- -->
           <li>
             <a class="accordion-toggle" >
-              <span class="glyphicon glyphicon-fire"></span>
+              <span class="glyphicon glyphicon-check"></span>
               <span class="sidebar-title">链接信息</span>
               <span class="caret"></span>
             </a>
