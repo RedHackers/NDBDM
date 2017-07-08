@@ -1,6 +1,4 @@
 <?php
-
-
 /**
  * Team: red hackers
  * Coding by cuilixiao 1511366, 20170706
@@ -205,7 +203,7 @@ AppAsset::register($this);
 
         <li class="hidden-xs">
                      <a href="<?php echo Url::to(['site/logout']) ?>" data-method="post">
-              <span class="fa fa-power-off pr5"></span> 登出 </a>
+              <span class="fa fa-power-off pr5"></span> 登出/登录 </a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -269,14 +267,14 @@ AppAsset::register($this);
               </a>
               <div class="media-body">
                 <div class="media-links">
-                   <a href="#" class="sidebar-menu-toggle">用户菜单-</a> <a href="<?php echo Url::to(['site/logout']) ?>" data-method="post">登出 </a>
+                   <a href="#" class="sidebar-menu-toggle">用户菜单</a> <!--<a href="<?php echo Url::to(['site/logout']) ?>" data-method="post">登出 </a>-->
                 </div>
                 <div class="media-author"><?php if (!\Yii::$app->user->isGuest) {echo Yii::$app->user->identity->username; }
                   else {echo '游客';}
                   ?></div>
               </div>
             </div>
-          </div>/
+          </div>
 
           <!-- Sidebar Widget - Menu (slidedown) -->
           <div class="sidebar-widget menu-widget">
@@ -306,6 +304,12 @@ AppAsset::register($this);
 
         <!-- Start: Sidebar Menu -->
         <ul class="nav sidebar-menu">
+          <li class="sidebar-proj">
+          <a href="<?php echo Url::to(['site/signup'])?>">
+              <span class="fa fa-dot-circle-o text-primary"></span>
+              <span class="sidebar-title">注册</span>
+            </a>
+          </li>
          
           <li class="sidebar-label pt15">作业展示</li>
           <li>
@@ -331,13 +335,20 @@ AppAsset::register($this);
             <ul class="nav sub-nav">
               <li>
                 <a href="<?php echo Url::to(['site/personalwork1']) ?>">
-                  <span class="glyphicon glyphicon-book"></span> 乜鹏</a>
+                  <span class="glyphicon glyphicon-book"></span> 李想</a>
               </li>
               <li>
                 <a href="<?php echo Url::to(['site/personalwork2']) ?>">
-                  <span class="glyphicon glyphicon-book"></span> xx</a>
+                  <span class="glyphicon glyphicon-book"></span>崔立骁</a>
               </li>
-              
+               <li>
+                <a href="<?php echo Url::to(['site/personalwork3']) ?>">
+                  <span class="glyphicon glyphicon-book"></span>贾靖宇</a>
+              </li>
+               <li>
+                <a href="<?php echo Url::to(['site/personalwork4']) ?>">
+                  <span class="glyphicon glyphicon-book"></span>周睿</a>
+              </li>
             </ul>
           </li>
       <!--  -->
@@ -349,15 +360,14 @@ AppAsset::register($this);
               <span class="caret"></span>
             </a>
             <ul class="nav sub-nav">
-             <li>
-                <a href="<?php echo Url::to(['site/teamwork2']) ?>">
-                  <span class="glyphicon glyphicon-book"></span> team-server</a>
-              </li>
-
-             <li>
-                <a href="<?php echo Url::to(['site/teamwork1']) ?>">
+                <li>
+                <a href="<?php echo Url::to(['site/team1']) ?>">
                   <span class="glyphicon glyphicon-book"></span> team-info</a>
               </li>
+             <li>
+                <a href="<?php echo Url::to(['site/team2']) ?>">
+                  <span class="glyphicon glyphicon-book"></span> team-server</a>
+              </li>       
             </ul>
           </li>
 
