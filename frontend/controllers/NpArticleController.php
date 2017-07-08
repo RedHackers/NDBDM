@@ -8,7 +8,6 @@ use frontend\models\NpArticleSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\filters\AccessControl;
 
 /**
  * NpArticleController implements the CRUD actions for NpArticle model.
@@ -27,18 +26,6 @@ class NpArticleController extends Controller
                     'delete' => ['POST'],
                 ],
             ],
-            'acess' => [
-                'class' => AccessControl::className(),
-                'only' => ['index', 'create', 'update', 'view'],
-                'rules' => [
-                    // allow authenticated users
-                    [
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                    // everying else is denied
-                ],
-            ],
         ];
     }
 
@@ -48,7 +35,6 @@ class NpArticleController extends Controller
      */
     public function actionIndex()
     {
-        $this->layout = "front_layout_5";
         $searchModel = new NpArticleSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
@@ -56,18 +42,6 @@ class NpArticleController extends Controller
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
-    }
-
-    /**
-     * 
-     * 
-     * @return 
-     */
-    public function actionTest()
-    {
-        $this->layout = "front_layout";
-        // $this->layout = "main2";
-        return $this->render('test');
     }
 
     /**
@@ -89,12 +63,14 @@ class NpArticleController extends Controller
      */
     public function actionCreate()
     {
-        $this->layout = "front_layout_head";
         $model = new NpArticle();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) { #传参
-            \YII::error("successful!!!");
-            return $this->redirect(['view', 'id' => $model->uid]);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            \YII::beginProfile("SUCCESS !!!");
+            \YII::warning("success !!!");
+            sleep(5);
+            \YII::endProfile("Profile");
+            return $this->redirect(['view', 'id' => $model->aid]);
         } else {
             return $this->render('create', [
                 'model' => $model,
@@ -113,7 +89,7 @@ class NpArticleController extends Controller
         $model = $this->findModel($id);
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->uid]);
+            return $this->redirect(['view', 'id' => $model->aid]);
         } else {
             return $this->render('update', [
                 'model' => $model,
@@ -134,6 +110,11 @@ class NpArticleController extends Controller
         return $this->redirect(['index']);
     }
 
+    public function actionActivity()
+    {
+        $this->layout = "front_layout_head";
+        return $this->render('activity');
+    }
     /**
      * Finds the NpArticle model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
@@ -149,5 +130,4 @@ class NpArticleController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
-
 }
