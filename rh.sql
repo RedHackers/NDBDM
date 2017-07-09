@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2017-07-08 15:50:32
+-- Generation Time: 2017-07-09 16:01:44
 -- 服务器版本： 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -113,18 +113,18 @@ INSERT INTO `rh_activity_show` (`activity_show_id`, `activity_show_name`, `activ
 (5, '排球比赛', '排球比赛是两队在由球网分开的场地上进行比赛的集体项目。它可以有多种比赛方式，以适应各种不同性质比赛的需求，从而不断推动该项运动的广泛开展。 \r\n比赛的目的，是各队遵照规则，将球击过球网，使其落在对方场区的地面上，而防止球落在本方场区的地面上。每队可击球3次(拦网触球除外)将球击回对区。', '排球比赛.jpg'),
 (6, '马拉松志愿者活动', '参与这项活动能让我们学会树立大局意识、服务意识和学习意识；并且感受到责任 的意义，；我们在参与的过程中能全身心的投入、坚守岗位，以高质量的志愿服务水平为赛事添加光彩。', '马拉松志愿者活动.jpg'),
 (7, '田野比赛', '这醉人的风光，那么美丽，那么朴素。当我们还眷恋着这世俗的喧嚣，也许永远也体会不到田野里那自然的美。如果累了，停下脚步吧，来领略一下大自然赐予我们的这个朴素的，醉人的田野风光吧！', '田野比赛.jpg'),
-(8, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '7.jpg'),
-(9, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '6.jpg'),
-(10, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '4.jpg'),
-(11, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '8.jpg'),
-(12, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '5.jpg'),
-(13, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '13.jpg'),
-(14, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '7.jpg'),
-(15, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '6.jpg'),
-(16, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '4.jpg'),
-(17, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '8.jpg'),
-(18, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '5.jpg'),
-(19, 'Consectetur', 'Sed ultricies non sem sit amet laoreet. Ut semper erat erat.', '5.jpg');
+(8, '歌手大赛', '来吧，让那麦克风失去它的光芒 ', '歌手大赛.jpg'),
+(9, '汉字书写比赛', '传魏晋之遗风 创古今书法之大成', '汉字书写比赛.jpg'),
+(10, '足球比赛', '竞技绿茵，激情人生。\r\n', '足球比赛.jpg'),
+(11, '舞蹈大会', '塑造魅力气质，打造曼妙舞姿', '舞蹈大会.jpg'),
+(12, '乒乓球比赛', '乒乓有形，快乐无限', '乒乓球比赛.jpg'),
+(13, '电竞比赛', '梦想的原点，等你战出新高度', '电竞比赛.jpg'),
+(14, '安全急救培训', '在津南校区大通学生中心开展了安全急救专题培训，以进一步增强学生急救意识、提高急救能力。', '安全急救培训.jpg'),
+(15, '参观IT企业', '到麒麟公司、国家超级计算天津中心、天津中科智能识别产业技术研究院进行参观', '参观IT企业.jpg'),
+(16, '茶道文化体验', '汉语言文化学院王居尚老师与同学们分享了茶道文化，并现场演示了茶艺', '茶道文化体验.jpg'),
+(17, '腾讯HR讲解简历制作', '同学们纷纷表示，通过此次讲座，不仅学习了简历制作的技巧，更感受到了互联网行业就业的机遇与挑战，受益匪浅。', '简历制作.jpg'),
+(18, '国创百项交流会', '本次国创百项交流会是计算机与控制工程学院举办的“创享视界”首届科技文化节的一项。', '国创百项交流会.jpg'),
+(19, '工业自动化展览', '到天津梅江会展中心参观国际工业自动化技术装备展览会，领略当代计算机科学和人工智能技术的前沿风采。', '工业自动化展览.jpg');
 
 -- --------------------------------------------------------
 
@@ -243,8 +243,7 @@ INSERT INTO `rh_note_record` (`user_name`, `note_email`, `note_content`, `note_i
 ('Felicity', 'Felicity@163.com', '好久没来看你了，呵呵!别介意噢!\r\n有种心情,天天传递,依然纯朴;\r\n有种经历,事隔多日,依然怀念;\r\n有种问候,清清淡淡,却最真诚!\r\n…━*祝你*永远*幸福*快乐*━…', 5),
 ('Lamen', 'Lamen@gmail.com', '祝愿，插上翅膀飞到你身旁\r\n福音，微风送轻轻到你耳边\r\n真情，从嘴说出入到你心坎\r\n祝福，信息传到你美丽空间', 6),
 ('Bai He', 'Baihe@qq.com', '一天一个太阳点燃新的希望\r\n一天一个梦想祝你幸福安康\r\n一天一个故事每天都不寻常\r\n一天一份祝福天天心情舒畅', 7),
-('Yang Jie', 'Yangjie@qq.com', '好朋友是美梦，谁都企盼\r\n好朋友是赤金，永远灿烂\r\n好朋友是情缘，一世牵伴\r\n好朋友是心路，越走越宽\r\n好朋友是洪福，吉祥无边', 8),
-('1', '1', '1', 11);
+('Yang Jie', 'Yangjie@qq.com', '好朋友是美梦，谁都企盼\r\n好朋友是赤金，永远灿烂\r\n好朋友是情缘，一世牵伴\r\n好朋友是心路，越走越宽\r\n好朋友是洪福，吉祥无边', 8);
 
 -- --------------------------------------------------------
 
@@ -425,7 +424,7 @@ ALTER TABLE `rh_activity_show`
 -- 使用表AUTO_INCREMENT `rh_note_record`
 --
 ALTER TABLE `rh_note_record`
-  MODIFY `note_id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '留言id', AUTO_INCREMENT=12;
+  MODIFY `note_id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '留言id', AUTO_INCREMENT=13;
 --
 -- 使用表AUTO_INCREMENT `rh_note_show`
 --
