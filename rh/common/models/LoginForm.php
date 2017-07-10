@@ -31,6 +31,15 @@ class LoginForm extends Model
         ];
     }
 
+    public function  attributeLabels()
+    {
+        return [
+            'username' => '用户名',
+            'password' => '密码',
+            'rememberMe'=> '记住我',
+        ];
+    }
+    
     /**
      * Validates the password.
      * This method serves as the inline validation for password.
@@ -51,7 +60,7 @@ class LoginForm extends Model
     /**
      * Logs in a user using the provided username and password.
      *
-     * @return bool whether the user is logged in successfully
+     * @return boolean whether the user is logged in successfully
      */
     public function login()
     {

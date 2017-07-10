@@ -352,16 +352,16 @@ ul.dropdown-menu li a:hover {
 	z-index: 9;
 }
 .agileits-banner-info{
-	background: url(../../images/activity_images/1.jpg) no-repeat 0px 0px;
+	background: url(../../images/activity_show/1.jpg) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
     padding: 8em 0;
 }
 .agileits-banner-info1{
-	background: url(../../images/activity_images/2.jpg) no-repeat 0px 0px;
+	background: url(../../images/activity_show/2.jpg) no-repeat 0px 0px;
 }
 .agileits-banner-info2{
-	background: url(../../images/activity_images/3.jpg) no-repeat 0px 0px;
+	background: url(../../images/activity_show/3.jpg) no-repeat 0px 0px;
 }
 .agileits-banner-info p{
 	font-size: .9em;
@@ -560,7 +560,7 @@ ul.dropdown-menu li a:hover {
 /*-- //services --*/
 /*-- testimonial --*/
 .testimonial{
-	background:url(../../images/activity_images/2.jpg) no-repeat 0px 0px;
+	background:url(../../images/activity_show/2.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 .testimonial-dot,.wthree-different-dot{
@@ -831,7 +831,7 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 /*-- about --*/
 .about-banner{
 	padding:2em 0;
-	background:url(../../images/activity_images/1.jpg) no-repeat 0px 0px;
+	background:url(../../images/activity_show/1.jpg) no-repeat 0px 0px;
 	background-size:cover;
 }
 /*-- //about --*/
@@ -1397,7 +1397,7 @@ h2.typoh2{
 /*-- //a-about --*/
 /*-- different --*/
 .different{
-    background: url(../../images/activity_images/1.jpg) no-repeat 0px 0px;
+    background: url(../../images/activity_show/1.jpg) no-repeat 0px 0px;
     background-size: cover;
 }
 .w3-different-heading h3,.agileinfo-team-heading h3,.more-bottom-heading h3{

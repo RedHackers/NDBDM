@@ -3,7 +3,7 @@
 /**
  * Team: RedHackers,NKU
  * Coding by Xiang Li 1511376, 20170704
- * This is the main layout of frontend web.
+ * This is the second layout of frontend web.
  */
 
 /* @var $this \yii\web\View */

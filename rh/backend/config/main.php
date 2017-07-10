@@ -7,23 +7,15 @@ $params = array_merge(
 );
 
 return [
-    'id' => 'app-backend',
+    'language' => 'zh-CN',
+    'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [],
+    'controllerNamespace' => 'backend\controllers',
     'components' => [
-        'request' => [
-            'csrfParam' => '_csrf-backend',
-        ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
-        ],
-        'session' => [
-            // this is the name of the session cookie used for login on the backend
-            'name' => 'advanced-backend',
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -37,14 +29,28 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
+        //字符串配置 国际化
+        'i18n' => [
+            'translations' => [
+                'common' => [
+                    'class' => 'yii\i18n\PhpMessageSource',
+                    //'basePath' => '/messages',
+                    'fileMap' => [
+                        'common' => '/common.php',
+                    ],
+                ],
             ],
         ],
-        */
+        //url优化
+          'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            //'suffix' => '.html',
+            'rules' => [
+        
+            ],
+        ],   
+        
     ],
     'params' => $params,
 ];
