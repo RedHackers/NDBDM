@@ -1,0 +1,1229 @@
+update2:array (
+  'uid' => '2',
+  'phone' => '1360215786',
+  'username' => '张三',
+  'birthtime' => '1458255600',
+  'date' => '03-18',
+)
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:array (
+  'num' => '2',
+)
+update2:array (
+  'num' => '2',
+)
+update2:array (
+  'num' => '2',
+)
+update2:array (
+  'num' => '2',
+)
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      0 => 'and',
+      1 => 
+      array (
+        'status' => '1',
+      ),
+      2 => 
+      array (
+        0 => '<=',
+        1 => 'cm_customer_apply_stat.duetime',
+        2 => 1457762150,
+      ),
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:''
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      0 => 'and',
+      1 => 
+      array (
+        'status' => '1',
+      ),
+      2 => 
+      array (
+        0 => 'between',
+        1 => 'cm_customer_apply_stat.duetime',
+        2 => 1457762216,
+        3 => 1458626216,
+      ),
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      0 => 'and',
+      1 => 
+      array (
+        'status' => '1',
+      ),
+      2 => 
+      array (
+        0 => 'between',
+        1 => 'cm_customer_apply_stat.duetime',
+        2 => 1457762360,
+        3 => 1458626360,
+      ),
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      0 => 'and',
+      1 => 
+      array (
+        'status' => '1',
+      ),
+      2 => 
+      array (
+        0 => 'between',
+        1 => 'cm_customer_apply_stat.duetime',
+        2 => 1457762457,
+        3 => 1458626457,
+      ),
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'cm_customer_apply_stat.ispay' => '0',
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'cm_customer_apply_stat.ispay' => '1',
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'cm_customer_apply_stat.ispay' => '0',
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:'0'
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'type' => '0',
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:'0'
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'type' => '0',
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
+update2:NULL
+update2:yii\data\ActiveDataProvider::__set_state(array(
+   'query' => 
+  frontend\models\CustomerQuery::__set_state(array(
+     'sql' => NULL,
+     'on' => NULL,
+     'joinWith' => 
+    array (
+      0 => 
+      array (
+        0 => 
+        array (
+          0 => 'customerApplyStat',
+        ),
+        1 => true,
+        2 => 'LEFT JOIN',
+      ),
+    ),
+     'select' => NULL,
+     'selectOption' => NULL,
+     'distinct' => NULL,
+     'from' => NULL,
+     'groupBy' => NULL,
+     'join' => NULL,
+     'having' => NULL,
+     'union' => NULL,
+     'params' => 
+    array (
+    ),
+     '_events' => 
+    array (
+    ),
+     '_behaviors' => 
+    array (
+    ),
+     'where' => 
+    array (
+      'status' => '1',
+    ),
+     'limit' => NULL,
+     'offset' => NULL,
+     'orderBy' => NULL,
+     'indexBy' => NULL,
+     'modelClass' => 'frontend\\models\\Customer',
+     'with' => NULL,
+     'asArray' => NULL,
+     'multiple' => NULL,
+     'primaryModel' => NULL,
+     'link' => NULL,
+     'via' => NULL,
+     'inverseOf' => NULL,
+  )),
+   'key' => NULL,
+   'db' => NULL,
+   'id' => NULL,
+   '_sort' => NULL,
+   '_pagination' => 
+  yii\data\Pagination::__set_state(array(
+     'pageParam' => 'page',
+     'pageSizeParam' => 'per-page',
+     'forcePageParam' => true,
+     'route' => NULL,
+     'params' => NULL,
+     'urlManager' => NULL,
+     'validatePage' => true,
+     'totalCount' => 0,
+     'defaultPageSize' => 20,
+     'pageSizeLimit' => 
+    array (
+      0 => 1,
+      1 => 50,
+    ),
+     '_pageSize' => 10,
+     '_page' => NULL,
+  )),
+   '_keys' => NULL,
+   '_models' => NULL,
+   '_totalCount' => NULL,
+   '_events' => 
+  array (
+  ),
+   '_behaviors' => NULL,
+))
