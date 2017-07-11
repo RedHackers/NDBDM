@@ -77,9 +77,15 @@ use frontend\models\RhActivityAttend;
 				</div>
 				<div class="col-md-6 content-about-grid-right">					
 						<p><?= RhTeamInfo::find()->where(['team_name' => 'RedHackers'])->one()->team_intro; ?></p>
+<<<<<<< HEAD
 						<!--<div class="learn">
 							<a href="#">Learn more</a>
 						</div>	-->				
+=======
+						<div class="learn">
+							<a href="#">Learn more</a>
+						</div>					
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
 				</div>
 				<div class="clearfix"> </div>
 			</div>

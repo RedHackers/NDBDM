@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
 /**
  * Team: RedHackers,NKU
  * Coding by Lixiao Cui 1511366, 20170704

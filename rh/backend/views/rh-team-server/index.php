@@ -1,8 +1,14 @@
 <?php
 /**
+<<<<<<< HEAD
  * Team: RedHackers,NKU
  * Coding by Xiang Li 1511376, 20170704
  * This is the main layout of frontend web.
+=======
+ * Team: red hackers
+ * Coding by cuilixiao 1511366, 20170708
+ * This is the rh_team_server's index of backend web. 
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
  */
 
 use yii\helpers\Html;

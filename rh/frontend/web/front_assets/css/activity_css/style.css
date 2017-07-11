@@ -352,16 +352,27 @@ ul.dropdown-menu li a:hover {
 	z-index: 9;
 }
 .agileits-banner-info{
+<<<<<<< HEAD:rh/frontend/web/front_assets/css/activity_css/style.css
 	background: url(../../images/activity_show/密码学竞赛.jpg) no-repeat 0px 0px;
+=======
+	background: url(../../images/activity_show/1.jpg) no-repeat 0px 0px;
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1:rh/frontend/web/front_assets/css/activity_css/style.css
     background-size: cover;
     min-height: 300px;
     padding: 8em 0;
 }
 .agileits-banner-info1{
+<<<<<<< HEAD:rh/frontend/web/front_assets/css/activity_css/style.css
 	background: url(../../images/activity_show/信息安全大赛.jpg) no-repeat 0px 0px;
 }
 .agileits-banner-info2{
 	background: url(../../images/activity_show/图书馆志愿者活动.jpg) no-repeat 0px 0px;
+=======
+	background: url(../../images/activity_show/2.jpg) no-repeat 0px 0px;
+}
+.agileits-banner-info2{
+	background: url(../../images/activity_show/3.jpg) no-repeat 0px 0px;
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1:rh/frontend/web/front_assets/css/activity_css/style.css
 }
 .agileits-banner-info p{
 	font-size: .9em;
@@ -560,7 +571,11 @@ ul.dropdown-menu li a:hover {
 /*-- //services --*/
 /*-- testimonial --*/
 .testimonial{
+<<<<<<< HEAD:rh/frontend/web/front_assets/css/activity_css/style.css
 	background:url(../../images/activity_show/信息安全大赛.jpg) no-repeat 0px 0px;
+=======
+	background:url(../../images/activity_show/2.jpg) no-repeat 0px 0px;
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1:rh/frontend/web/front_assets/css/activity_css/style.css
 	background-size:cover;
 }
 .testimonial-dot,.wthree-different-dot{
@@ -831,7 +846,11 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
 /*-- about --*/
 .about-banner{
 	padding:2em 0;
+<<<<<<< HEAD:rh/frontend/web/front_assets/css/activity_css/style.css
 	background:url(../../images/activity_show/密码学竞赛.jpg) no-repeat 0px 0px;
+=======
+	background:url(../../images/activity_show/1.jpg) no-repeat 0px 0px;
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1:rh/frontend/web/front_assets/css/activity_css/style.css
 	background-size:cover;
 }
 /*-- //about --*/
@@ -1397,7 +1416,11 @@ h2.typoh2{
 /*-- //a-about --*/
 /*-- different --*/
 .different{
+<<<<<<< HEAD:rh/frontend/web/front_assets/css/activity_css/style.css
     background: url(../../images/activity_show/密码学竞赛.jpg) no-repeat 0px 0px;
+=======
+    background: url(../../images/activity_show/1.jpg) no-repeat 0px 0px;
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1:rh/frontend/web/front_assets/css/activity_css/style.css
     background-size: cover;
 }
 .w3-different-heading h3,.agileinfo-team-heading h3,.more-bottom-heading h3{

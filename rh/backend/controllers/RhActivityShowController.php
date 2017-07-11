@@ -1,9 +1,13 @@
 <?php
+<<<<<<< HEAD:rh/backend/controllers/RhActivityShowController.php
 /**
  * Team: RedHackers,NKU
  * Coding by Jingyu Jia 1511372, 20170704
  * This is the activity display of frontend web.
  */
+=======
+
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1:rh/backend/controllers/RhActivityShowController.php
 namespace backend\controllers;
 
 use Yii;

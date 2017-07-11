@@ -1,9 +1,13 @@
 <?php
+<<<<<<< HEAD
 /**
  * Team: red hackers
  * Coding by cuilixiao 1511366, 20170708
  * This is the note show of backend web. 
  */
+=======
+
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 

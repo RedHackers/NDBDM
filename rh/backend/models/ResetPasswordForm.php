@@ -1,9 +1,12 @@
 <?php
+<<<<<<< HEAD
 /**
  * Team: RedHackers,NKU
  * Coding by Rui Zhou 1511388, 20170704
  * This is the member display of frontend web.
  */
+=======
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
 namespace backend\models;
 
 use common\models\User;

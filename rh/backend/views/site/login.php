@@ -1,9 +1,13 @@
 <?php
+<<<<<<< HEAD
 /**
  * Team: RedHackers,NKU
  * Coding by Xiang Li 1511376, 20170704
  * This is the main layout of frontend web.
  */
+=======
+
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
 /* @var $model \common\models\LoginForm */

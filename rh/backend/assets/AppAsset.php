@@ -3,7 +3,11 @@
 /**
  * Team: RedHackers,NKU
  * Coding by Lixiao Cui 1511366, 20170704
+<<<<<<< HEAD
  * 
+=======
+ * This is the second layout of frontend web.
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
  */
 
 /* @var $this \yii\web\View */

@@ -1,10 +1,13 @@
 <?php
 /**
+<<<<<<< HEAD
  * Team: red hackers
  * Coding by cuilixiao 1511366, 20170708
  * This is the start layout of backend web. 
  */
 /**
+=======
+>>>>>>> a0d61432f20fc8f6e61e693fc5cd043dfc548ee1
  * @link http://www.yiiframework.com/
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license http://www.yiiframework.com/license/
